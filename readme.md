@@ -57,19 +57,17 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
    npm install
    ```
 
-### Compile and Hot-Reload for Development
+### Run the Development Server
 
    ```sh
    npm run dev
    ```
-### Compile and Minify for Production
 
-```sh
-npm run build
-```
+You can start editing the page by modifying `src/App.vue`. The page auto-updates as you edit the file.
 
 ### Pages
 
+Open these with your browser to see the result:
 - Exercise 1: `http://localhost:5173/` 
 - Exercise 2: `http://localhost:5173/exercise2`
 - Bonus points: `http://localhost:5173/exercise2`
