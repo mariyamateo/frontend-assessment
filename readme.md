@@ -1,40 +1,85 @@
-Introduction
----
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+# FRONTEND ASSESSMENT
 
-Exercise 1
----
-Build a responsive page based on the designs.
+## Overview
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
+This Frontend Assessment is a Vue 3 project in Vite. 
 
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
+#### Styling
 
-##### Assets
-* Desktop banner - https://via.placeholder.com/1920x650
-* Mobile banner - https://via.placeholder.com/600x600
-* Content images - https://via.placeholder.com/400x300
+- Uses Tailwind CSS
+- Uses BEM syntax for custom CSS classes.
+- Uses CSS for reused components.
 
-Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
+#### Routing
 
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
+- Uses Vue Router for navigation of pages (e.g. Exercise 1 and Exercise 2)
 
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
+## Project Setup
 
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+To get started with the project, follow the steps below:
+
+### Prerequisites
+
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+#### Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+
+#### Customize configuration
+
+See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd frontend-assessment
+   ```
+3. Project Setup:
+
+   ```sh
+   npm install
+   ```
+
+### Compile and Hot-Reload for Development
+
+   ```sh
+   npm run dev
+   ```
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
+
+### Pages
+
+- Exercise 1: `http://localhost:5173/` 
+- Exercise 2: `http://localhost:5173/exercise2`
+- Bonus points: `http://localhost:5173/exercise2`
+
+### Dependencies
+
+#### Production Dependencies
+
+- `vue`: The core Vue.js library.
+- `vue-router`: The official router for Vue.js.
+
+#### Development Dependencies
+
+- `@vitejs/plugin-vue`: Vite plugin for Vue.
+- `autoprefixer`: Autoprefixer for CSS.
+- `postcss`: Tool for transforming CSS with JavaScript plugins.
+- `tailwindcss`: Utility-first CSS framework.
+- `vite`: Build tool for modern web projects.
+
+## Contact:
+
+ 📫 You can reach me here: [ma.clarissepmateo@gmail.com](mailto:ma.clarissepmateo@gmail.com)
