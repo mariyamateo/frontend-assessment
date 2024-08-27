@@ -36,13 +36,22 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
    ```bash
    git clone <repository-url>
+   ```
+   or
+   ```bash
+   git clone https://github.com/mariyamateo/frontend-assessment.git
+   ```
 
-2. Navigate to the project directory:
+3. Navigate to the project directory:
 
    ```sh
    cd frontend-assessment
    ```
-3. Project Setup:
+   then
+   ```sh
+   cd mateo-frontend
+   ```
+5. Project Setup:
 
    ```sh
    npm install
