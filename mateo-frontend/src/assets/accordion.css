@@ -1,0 +1,46 @@
+@layer components {
+    .accordion__container {
+      @apply mt-10 rounded block md:hidden;
+    }
+  
+    .accordion__item {
+      @apply border overflow-hidden;
+    }
+  
+    .accordion__header {
+      @apply flex justify-between p-2 bg-gray-200 cursor-pointer select-none hover:bg-gray-300;
+    }
+
+    .accordion__header.--active {
+      @apply bg-gray-500 text-white;
+    }
+  
+    .accordion__title {
+      @apply font-bold text-gray-800 tracking-widest;
+    }
+
+    .accordion__title.--active {
+      @apply text-white;
+    }
+  
+    .accordion__icon {
+      @apply text-lg text-gray-800;
+    }
+  
+    .accordion__content {
+      @apply px-2 bg-white border-t max-h-0 transition-all duration-500 ease-out overflow-hidden;
+    }
+  
+    .accordion__content > ul {
+      @apply list-disc;
+    }
+  
+    .accordion__content.--active {
+      @apply py-2 max-h-[500px];
+    }
+  
+    .loading {
+      text-align: center;
+      color: #888;
+    }
+  }

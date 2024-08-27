@@ -1,0 +1,54 @@
+@import './accordion.css';
+@import './tab.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+  max-width: 1440px;
+  margin: 0 auto;
+  font-weight: normal;
+  padding-bottom: 32px;
+}
+
+.footer__links {
+  padding: 20px;
+}
+
+.card__container {
+  @apply flex flex-1 flex-col bg-white rounded-lg overflow-hidden p-5 text-center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.banana {
+  @apply my-12 bg-gray-100 border p-5 shadow-lg rounded-lg;
+}
+
+.banana__header {
+  @apply flex flex-row cursor-pointer justify-between;
+}
+
+.banana__title {
+  @apply text-lg font-bold tracking-widest text-gray-800;
+}
+
+.banana__title span,
+.banana__trivia span {
+  @apply text-gray-800 font-bold;
+}
+
+.banana__trivia {
+  @apply text-xl;
+}
+
+.banana__triviaAnswer {
+  @apply text-sm py-2;
+}

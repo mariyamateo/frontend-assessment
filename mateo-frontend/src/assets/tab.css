@@ -1,0 +1,39 @@
+@layer components {
+  .tab {
+    @apply flex mb-5;
+  }
+
+  .tab__container {
+    @apply py-10 hidden md:block lg:block;
+  }
+
+  .tab__button {
+    @apply flex-1 py-2 text-gray-800 border font-bold bg-gray-200 cursor-pointer transition-all duration-300 tracking-wide hover:bg-gray-300;
+  }
+
+  .tab__button.--active {
+    @apply bg-gray-500 border-none text-white;
+  }
+
+  .tab__content {
+    @apply p-5 border bg-gray-100 rounded shadow-lg;
+  }
+
+  .tab__content p,
+  .tab__content ul {
+    @apply text-black;
+  }
+  
+  .tab__content ul {
+    @apply px-5 list-disc;
+  }
+
+  .fade-enter-active,
+  .fade-leave-active {
+    @apply transition-opacity duration-500;
+  }
+
+  .fade-enter, .fade-leave-to {
+    @apply opacity-0;
+  }
+}
